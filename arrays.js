@@ -9,8 +9,15 @@ function printIndices(items) {
 
 // 2. everyOtherItem
 function everyOtherItem(items) {
-  // Replace this with your code
-}
+  const resultList = []
+
+  for (const i in items) {
+    if (i % 2 === 0) {
+      resultList.push(items[i]);
+      }
+    }
+  console.log(resultList)
+  }
 
 // 3. smallestNItems
 function smallestNItems(items, n) {
