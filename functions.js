@@ -28,5 +28,5 @@ function calculateTotal(basePrice, state, tax = 0.05) {
         fee = 3;
     }
 
-    return subtotal + fee
+    return subtotal + fee;
 }
