@@ -7,7 +7,9 @@ function isHometown(town) {
 
 
 // 2. getFullName
-
+function getFullName(firstName, lastName) {
+    return `${firstName} ${lastName}`;
+}
 
 
 // 3. calculateTotal
